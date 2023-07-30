@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <title>Cats-vs-Dogs</title>
+    <link href='/static/style2.css' rel='stylesheet'/>
+</head>
+<body>
+    <p>your uploaded image is an {{ cat }} animal</p>
+    <div class='image'>
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+    </div>
+    <div class='images1'>
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+        <img src=" {{ url_for('static',filename='/image/img.jpeg') }} " alt='uploaded image' />
+    </div>
+</body>
+</html>

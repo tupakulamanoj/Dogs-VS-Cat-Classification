@@ -1,0 +1,32 @@
+p{
+    font-size: 80px;
+    display:flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    justify-content: center;
+    margin-left: 500px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input{
+    padding: 50px;
+    font-size: 40px;
+}
+button{
+    padding: 20px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.submit{
+    margin-left: 640px;
+    margin-bottom:0px;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZ6BiwscDF6eUxpgDai4yGxLSjpJ26bLSYw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}

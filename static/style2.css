@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZ6BiwscDF6eUxpgDai4yGxLSjpJ26bLSYw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: beige;
+
+}
+p{
+    font-size: 80px;
+    display:flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image{
+    position: relative;
+    animation: images 5s infinite;
+    border-radius: 20px;
+}
+@keyframes images {
+    0%   {top: 0px;}
+  25%  {top: 200px;}
+  75%  {top: 50px}
+  100% {top: 100px;}
+}
+img{
+    border-radius: 300px;
+    border-style: outset;
+}
+.images1{
+    margin-left: 1100px;
+    position: relative;
+    animation: images 5s infinite reverse;
+    border-radius: 20px;
+}
